@@ -1,0 +1,2 @@
+move(North)
+#f0()
