@@ -8,7 +8,7 @@ while True:
 			if can_harvest():
 				harvest()
 			
-			if get_water() < 0.2:
+			if get_water() < 0.4:
 				use_item(Items.Water)
 			
 			if get_ground_type() == Grounds.Grassland:
